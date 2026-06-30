@@ -86,7 +86,7 @@ The Unity client never communicates directly with the database. All requests are
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bayani-chronicles-api.git
+git clone https://github.com/Ikong217/bayani-chronicles-api.git
 ```
 
 Install dependencies
@@ -127,13 +127,13 @@ php artisan serve
 
 **Unity Client**
 
-https://github.com/YOUR_USERNAME/bayani-chronicles-client
+https://github.com/Ikong217/bayani-chronicles-client
 
----
+<!-- ---
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+Screenshots will be added soon. -->
 
 ---
 
