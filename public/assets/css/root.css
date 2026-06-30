@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+
+:root{
+    --border:solid 1px black;
+    --text-color:white;
+    --font-family: "Poppins", sans-serif;
+    --font-secondary: "Manufacturing Consent", system-ui;
+    --bg-primary:rgb(110, 14, 14);
+}
+

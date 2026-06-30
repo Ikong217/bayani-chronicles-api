@@ -1,0 +1,172 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.727);
+  z-index: 2;
+  content: "";
+}
+
+
+.content_wrapper{
+    z-index: 100;
+    height: 90%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 768px;
+    max-width: 1366px;
+}
+
+.contents{
+    height: 90%;
+    width: 94%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 1fr;
+    gap: 40px;
+    color: var(--text-color);
+
+}
+
+
+
+.contents .grid:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 2fr;
+}
+
+
+
+.info_grid:nth-child(1) h1{
+    font-family: var(--font-secondary);
+    font-size: 50px
+}
+
+.info_grid:nth-child(1)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contents .grid:nth-child(2),
+.wrapper{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+.info_grid:nth-child(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_wrapper{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr .3fr 1fr 1fr;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input:nth-child(3)
+{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+.input:nth-child(3) a{
+    text-decoration: none;
+}
+
+#remember_me{
+    height: 20px;
+    width: 20px;
+}
+
+.input input,
+.input button{
+    width: 100%;
+    height: 50px;
+}
+
+.input button{
+    background-color: var(--bg-primary);
+    color: var(--text-color);
+}
+
+.input:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input h5{
+    font-weight: 500;
+}
+
+a{
+    color:var(--text-color);
+}
+
+
+
+.input_with_eye {
+    position: relative;
+}
+
+.input_with_eye input {
+    width: 100%;
+    padding-right: 40px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.toggle_eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+    user-select: none;
+}
+
+span{
+    color: yellow;
+}
